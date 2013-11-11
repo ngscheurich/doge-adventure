@@ -5,7 +5,7 @@ very outs is process.stdout
 very nl is '\n'
 very nlnl is '\n\n'
 very div is '=========================='
-very msg is ''
+very words is ''
 
 such speak
   plz outs.write with words
@@ -33,8 +33,8 @@ much very i as 0 next i lesser options.length next i more 1
     .plz toUpperCase
   verb[1] is plz option.substring with 1 option.length
 
-  msg is '  ' + (i + 1) + '. ' + verb[0] + verb[1] + ' ' + thing + nl
-  plz outs.write with msg
+  words is '  ' + (i + 1) + '. ' + verb[0] + verb[1] + ' ' + thing + nl
+  plz speak
 wow
 
 words is nl + 'What do you want to do? '
