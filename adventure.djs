@@ -25,7 +25,7 @@ plz speak
 words is 'Options:' + nl
 plz speak
 
-much very i as 0 next i lesser options.length next i more 1
+much very i as 0 next i smaller options.length next i more 1
   very option is options[i]
 
   very verb is []
